@@ -1,0 +1,106 @@
+.cards {
+  background-color: #DFF6FF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  height: 25rem;
+  width: 50rem;
+  background-color: white;
+  border-radius: 1rem;
+  align-items: center;
+  margin: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  color: #06283D;
+}
+
+.card-head {
+  padding-bottom: 1.5rem;
+}
+
+.card-content h1 {
+  font-size: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 0;
+}
+
+.card-content h2 {
+  font-size: 1rem;
+  color: grey;
+  margin-top: 0.2rem;
+}
+
+.card-location {
+  font-size: 1.2rem;
+  padding-bottom: 1rem;
+}
+
+.card-details {
+  display: flex;
+  flex-direction: row;
+}
+
+.date {
+  padding-top: 0.5rem;
+  padding-right: 2rem;
+}
+
+.money {
+  padding: 0.5rem;
+}
+
+.icon {
+  height: 0.9rem;
+  padding-right: 0.5rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .card {
+    width: 20rem;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+  .card {
+    width: 30rem;
+    height: 25rem;
+  }
+
+  .card-content h1 {
+    font-size: 3rem;
+  }
+
+  .card-content h2 {
+    font-size: 1.5rem;
+    color: grey;
+  }
+
+  .card-location {
+    font-size: 1rem;
+    padding-bottom: 0rem;
+  }
+
+  .date {
+    padding-left: 0.5rem;
+  }
+
+  .money {
+    padding-left: 0.5rem;
+  }
+}
+
+.detail-context {
+  font-size: 1.2rem;
+  padding-left: 0.8rem;
+}
+
+@media only screen and (min-width: 992px) {
+  .card {
+    height: 24rem;
+    width: 50rem;
+  }
+}
